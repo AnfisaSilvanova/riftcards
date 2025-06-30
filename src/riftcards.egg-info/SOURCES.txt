@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/cards/__init__.py
+src/cards/routes.py
+src/riftcards.egg-info/PKG-INFO
+src/riftcards.egg-info/SOURCES.txt
+src/riftcards.egg-info/dependency_links.txt
+src/riftcards.egg-info/top_level.txt

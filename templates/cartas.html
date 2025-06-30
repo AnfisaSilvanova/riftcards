@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Cartas - RiftCards</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        </header>
+
+    <main class="container-catalogo">
+        <aside class="filter-sidebar">
+            <h2>Filtros</h2>
+            
+            <div id="rarity-filter" class="filter-group">
+                <h3>Raridade</h3>
+                <label><input type="checkbox" name="raridade" value="common"> Comum</label>
+                <label><input type="checkbox" name="raridade" value="uncommon"> Incomum</label>
+                <label><input type="checkbox" name="raridade" value="rare"> Rara</label>
+                <label><input type="checkbox" name="raridade" value="epic"> Épica</label>
+            </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Custo de Energia</h3>
+                <input type="range" id="energy-slider" min="0" max="10" value="10" class="mana-slider">
+                <span id="energy-value">Custo: 10 ou menos</span>
+            </div>
+            
+            <div id="runes-filter" class="filter-group">
+                <h3>Runas</h3>
+                <label><input type="checkbox" name="Runas" value="Fury Rune"> Fury</label>
+            </div>
+
+              <div id="keyword-filter" class="filter-group">
+                <h3>Habilidades</h3>
+                <label><input type="checkbox" name="tag" value="ACCELERATE"> Acelerate</label>
+                <label><input type="checkbox" name="tag" value="LEGION"> Legion</label>
+                <label><input type="checkbox" name="tag" value="ASSAULT"> Assault</label>
+                <label><input type="checkbox" name="tag" value="SHIELD"> Shiedl</label>
+                <label><input type="checkbox" name="tag" value="TANK"> Tank</label>
+                <label><input type="checkbox" name="tag" value="DEATHKNELL"> Deathkell</label>
+                <label><input type="checkbox" name="tag" value="DEFLECT"> Deflect</label>
+                <label><input type="checkbox" name="tag" value="GANKING"> Ganking</label>
+                <label><input type="checkbox" name="tag" value="TEMPORARY"> Temporary</label>
+                <label><input type="checkbox" name="tag" value="VISION"> Vision</label>
+                <label><input type="checkbox" name="tag" value="HIDDEN"> Ganking</label>
+                <label><input type="checkbox" name="tag" value="STUN"> Stun</label>
+                <label><input type="checkbox" name="tag" value="BUFF"> Buff</label>
+            </div>
+        </aside>
+
+        <section class="catalogo-grid">
+            </section>
+    </main>
+
+    <footer>
+        </footer>
+
+    <script src="/static/js/cartas.js"></script>
+</body>
+</html>
