@@ -1,6 +1,6 @@
 # riftcards
 Catálogo das cartas de Riftbound com filtro inteligentes
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/OFCidnK"  ><a href="//imgur.com/a/OFCidnK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img width="1920" height="963" alt="Image" src="https://github.com/user-attachments/assets/7c1ee763-494c-4d24-9f06-cfc81fa40b3a" />
 
 -Feito com PostgreSQL, Python, Flask, Html, Css, Javascript
