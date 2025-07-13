@@ -1,7 +1,6 @@
 # riftcards
-
-![Tela](https://imgur.com/a/OFCidnK)
-
 Catálogo das cartas de Riftbound com filtro inteligentes
 
-Feitos com PostgreSQL, Python, Flask, Html, Css, Javascript
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/OFCidnK"  ><a href="//imgur.com/a/OFCidnK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+-Feito com PostgreSQL, Python, Flask, Html, Css, Javascript
